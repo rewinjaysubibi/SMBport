@@ -17,7 +17,7 @@ export function Hero() {
           </div>
 
           <h1 className="font-georgia mb-6 text-5xl font-normal tracking-wide text-[#1A1A1A] uppercase md:text-7xl lg:text-8xl">
-            CARL JAY SUBIBI
+            REWIN JAY SUBIBI
           </h1>
 
           <div className="mb-6 border-b border-[#C4B9A8] pb-6">
