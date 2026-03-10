@@ -11,7 +11,9 @@ export function Footer() {
           Printed in General Santos City, Philippines. Designed and built by
           Rewin Jay Subibi.
         </p>
-        <p className="font-georgia text-xs text-[#6B5B4E] italic">SMB 💕</p>
+        <p className="font-georgia text-xs text-[#6B5B4E] italic">
+          Shaquera 💕
+        </p>
       </div>
     </footer>
   )
