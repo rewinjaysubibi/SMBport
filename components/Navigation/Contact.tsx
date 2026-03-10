@@ -18,17 +18,11 @@ export function Contact() {
     setStatus("")
 
     const formData = new FormData(e.currentTarget)
-    const data = {
-      name: formData.get("name")?.toString().trim(),
-      email: formData.get("email")?.toString().trim(),
-      message: formData.get("message")?.toString().trim(),
-    }
 
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: formData, // send multipart/form-data with optional attachment
       })
 
       const result: ApiResponse = await res.json()

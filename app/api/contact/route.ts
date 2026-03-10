@@ -13,7 +13,11 @@ function escapeHtml(text: string): string {
 
 export async function POST(req: Request) {
   try {
-    const { name, email, message } = await req.json()
+    const formData = await req.formData()
+    const name = formData.get("name")?.toString().trim()
+    const email = formData.get("email")?.toString().trim()
+    const message = formData.get("message")?.toString().trim()
+    const attachment = formData.get("attachment")
 
     if (!name || !email || !message) {
       return new Response(
@@ -61,6 +65,32 @@ export async function POST(req: Request) {
     // Always send to this Gmail (ignores env "to" address).
     const toAddress = "subibirewinjay@gmail.com"
 
+    const attachments: Array<{
+      filename: string
+      content: Buffer
+      contentType?: string
+    }> = []
+
+    if (attachment && attachment instanceof File && attachment.size > 0) {
+      const maxBytes = 5 * 1024 * 1024
+      if (attachment.size > maxBytes) {
+        return new Response(
+          JSON.stringify({
+            success: false,
+            error: "Attachment too large (max 5MB)",
+          }),
+          { status: 400, headers: { "Content-Type": "application/json" } }
+        )
+      }
+
+      const arrayBuffer = await attachment.arrayBuffer()
+      attachments.push({
+        filename: attachment.name || "attachment",
+        content: Buffer.from(arrayBuffer),
+        contentType: attachment.type || undefined,
+      })
+    }
+
     const info = await transporter.sendMail({
       from: `"Contact Form" <${process.env.SMTP_USER}>`,
       to: toAddress,
@@ -72,6 +102,7 @@ export async function POST(req: Request) {
         <p><b>Email:</b> ${escapeHtml(email)}</p>
         <p><b>Message:</b> ${escapeHtml(message)}</p>
       `,
+      attachments: attachments.length ? attachments : undefined,
     })
 
     console.log("Email sent successfully:", info.response)
