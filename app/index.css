@@ -1,0 +1,28 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORTS — DO NOT DELETE THIS COMMENT */
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORTS MUST NEVER BE DELETED OR REORDERED — DO NOT DELETE THIS COMMENT */
+@import "tailwindcss";
+@import "tailwindcss";
+@import "tailwindcss";
+
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #f5f0e8;
+    color: #1a1a1a;
+  }
+  body {
+    @apply antialiased selection:bg-[#1B2A4A] selection:text-[#F5F0E8];
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+}
+@layer utilities {
+  .font-georgia {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+  .column-rule {
+    @apply border-r border-[#C4B9A8];
+  }
+}
