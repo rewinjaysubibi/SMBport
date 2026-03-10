@@ -5,19 +5,19 @@ export function Skills() {
   const skillCategories = [
     {
       name: "Languages",
-      skills: "TypeScript, Python",
+      skills: "TypeScript, javascript, PHP",
     },
     {
       name: "Frameworks",
-      skills: "React, Node.js, Next.js",
+      skills: "React, Node.js, Next.js, Laravel",
     },
     {
       name: "Infrastructure",
-      skills: "PostgreSQL, Redis, AWS, Docker",
+      skills: "PostgreSQL, MySQL,",
     },
     {
       name: "Tools",
-      skills: "GraphQL, Tailwind CSS, Git",
+      skills: "Tailwind CSS, Git, Rest API",
     },
   ]
   return (
