@@ -22,7 +22,10 @@ export function Hero() {
 
           <div className="mb-6 border-b border-[#C4B9A8] pb-6">
             <p className="font-georgia text-xl text-[#1A1A1A] italic md:text-2xl">
-              Building thoughtful software that solves real problems.
+              an IT intern and aspiring developer with experience in Next.js,
+              JavaScript, HTML, and CSS. I enjoy building clean, user-friendly
+              web applications and solving problems through code, while
+              continuously learning and growing my skills.
             </p>
           </div>
 

@@ -4,26 +4,27 @@ import { FadeIn } from "./FadeIn"
 export function Projects() {
   const projects = [
     {
-      title: "Nexus Analytics",
+      title: "A group Project for Sia2 Massage Booking",
       description:
-        "Real-time event tracking and analytics dashboard for SaaS products. Designed to handle high-throughput data ingestion with sub-second query latency.",
-      tech: "Built with React, TypeScript, ClickHouse, and Go",
-      github: "#",
+        "Real-time booking management and analytics dashboard for a massage service. Designed to track appointments, manage schedules, and provide insights with fast, responsive performance.",
+      tech: "PHP, Laravel, MySQL, HTML, CSS, JavaScript",
+      github:
+        "https://github.com/CAACARL/Sia2-Massage-Booking/tree/main/laravel",
       live: "#",
     },
     {
-      title: "Lumina Editor",
+      title: "mpo group project for mpo office of Rmmc",
       description:
-        "A block-based rich text editor with collaborative features. Implements operational transformation for real-time multiplayer editing capabilities.",
-      tech: "Built with Next.js, ProseMirror, Yjs, and WebSockets",
-      github: "#",
+        "A calendar-based scheduling system for managing appointments and events. Implements real-time updates for seamless booking and coordination among staff.",
+      tech: "Built with PHP, Laravel, Boostrap, Javascrpt",
+      github: "https://github.com/harvey4u/mpo1",
       live: "#",
     },
     {
       title: "Aura UI",
       description:
         "Minimalist, accessible component library for React applications. Focuses on unstyled, composable primitives that can be easily customized.",
-      tech: "Built with React, Tailwind CSS, Radix UI, and Storybook",
+      tech: "Built with React, Tailwind CSS, Radix UI,",
       github: "#",
       live: "#",
     },
@@ -31,9 +32,9 @@ export function Projects() {
       title: "Orbit CLI",
       description:
         "Command-line tool for managing multi-cloud deployments. Streamlines the process of provisioning and updating infrastructure across providers.",
-      tech: "Built with Rust, AWS SDK, Docker, and GitHub Actions",
-      github: "#",
-      live: "#",
+      tech: "Gitlab, and GitHub Actions",
+      github: "https://gitlab.com/",
+      live: "",
     },
   ]
   return (
