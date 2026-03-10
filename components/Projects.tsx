@@ -21,20 +21,12 @@ export function Projects() {
       live: "#",
     },
     {
-      title: "Aura UI",
+      title: "Icon venue & suites Booking and Billing System",
       description:
-        "Minimalist, accessible component library for React applications. Focuses on unstyled, composable primitives that can be easily customized.",
-      tech: "Built with React, Tailwind CSS, Radix UI,",
-      github: "#",
+        "A web-based platform for managing venue bookings and billing. Allows clients to book venues, upload payment proofs, and track booking status. Provides admins with tools to manage bookings, monitor transactions, and send notifications.",
+      tech: "Built with Laravel, Tailwind CSS, PHP,",
+      github: "h#",
       live: "#",
-    },
-    {
-      title: "Orbit CLI",
-      description:
-        "Command-line tool for managing multi-cloud deployments. Streamlines the process of provisioning and updating infrastructure across providers.",
-      tech: "Gitlab, and GitHub Actions",
-      github: "https://gitlab.com/",
-      live: "",
     },
   ]
   return (

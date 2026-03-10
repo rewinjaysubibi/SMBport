@@ -92,7 +92,7 @@ export async function POST(req: Request) {
     }
 
     const info = await transporter.sendMail({
-      from: `"Contact Form" <${process.env.SMTP_USER}>`,
+      from: `"SMBport" <${process.env.SMTP_USER}>`,
       to: toAddress,
       replyTo: email,
       subject: `Contact Form Message from ${name}`,
