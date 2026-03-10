@@ -29,7 +29,7 @@ export function Experience() {
       <FadeIn>
         <div className="mb-8 border-b border-[#C4B9A8] pb-2">
           <h2 className="text-[11px] font-bold tracking-[0.2em] text-[#1A1A1A] uppercase">
-            CAREER
+            CAREERS
           </h2>
         </div>
 
