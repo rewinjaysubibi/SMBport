@@ -11,11 +11,11 @@ export function About() {
           </h2>
         </div>
         <p className="font-georgia text-justify text-base leading-relaxed text-[#1A1A1A] md:text-lg">
-          I am a software engineer with 6+ years of experience building web
-          applications and distributed systems. I care deeply about clean code,
-          thoughtful design, and shipping products that make a difference.
-          Currently based in , working on developer tools. Previously at Stripe
-          and a YC startup.
+          I am an aspiring software engineer and IT intern specializing in
+          building web applications with Next.js. I focus on clean code,
+          thoughtful design, and creating responsive, mobile-friendly
+          interfaces. Currently gaining practical experience through internship
+          projects in frontend development and modern web workflows.
         </p>
       </FadeIn>
     </section>

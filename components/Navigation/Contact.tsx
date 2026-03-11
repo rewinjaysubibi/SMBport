@@ -59,11 +59,17 @@ export function Contact() {
               <div className="mb-4 space-x-2 text-[11px] tracking-[0.1em] text-[#1A1A1A] uppercase">
                 <span>Electronic Mail: subibirewinjay@gmail.com</span>
                 <span>·</span>
-                <a href="#" className="transition-colors hover:text-[#1B2A4A]">
-                  LinkedIn
+                <a
+                  href="https://gitlab.com/rewinjaysubibi"
+                  className="transition-colors hover:text-[#1B2A4A]"
+                >
+                  Gitlab
                 </a>
                 <span>·</span>
-                <a href="#" className="transition-colors hover:text-[#1B2A4A]">
+                <a
+                  href="https://github.com/rewinjaysubibi"
+                  className="transition-colors hover:text-[#1B2A4A]"
+                >
                   GitHub
                 </a>
               </div>
