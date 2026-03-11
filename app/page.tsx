@@ -24,7 +24,7 @@ export default function Page() {
         </div>
 
         {/* Hero section */}
-        <div className="-mt-50 pt-12 pb-16 md:pt-16 md:pb-20">
+        <div className="-mt-30 pt-12 pb-16 md:pt-16 md:pb-20">
           <Hero />
         </div>
 
