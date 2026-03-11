@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { About } from "@/components/About"
 import { Contact } from "@/components/Navigation/Contact"
 import { Hero } from "@/components/Hero"
@@ -14,23 +15,26 @@ export default function Page() {
 
       {/* Main content wrapper */}
       <main className="mx-auto max-w-5xl flex-1 px-6">
+        {/* Professional Portfolio Image */}
+        <div className="relative z-0 mx-auto mt-25 h-64 w-64 overflow-hidden rounded-full border-4 border-[#1A1A1A] shadow-lg">
+          <img
+            src="CET.jpg" // your uploaded image in public/images
+            alt="Portfolio Image"
+          />
+        </div>
+
         {/* Hero section */}
-        <div className="pt-32 pb-16 md:pt-40 md:pb-20">
+        <div className="-mt-50 pt-12 pb-16 md:pt-16 md:pb-20">
           <Hero />
         </div>
 
         {/* About + Skills section */}
         <div className="relative mt-12 border-t border-[#C4B9A8] pt-12">
-          {/* Vertical divider (desktop only) */}
           <div className="pointer-events-none absolute top-12 left-1/2 hidden h-full w-px -translate-x-1/2 bg-[#C4B9A8] md:block" />
-
           <div className="grid gap-12 md:grid-cols-2">
-            {/* Left column: About */}
             <div className="md:pr-12">
               <About />
             </div>
-
-            {/* Right column: Skills */}
             <div className="md:pl-12">
               <Skills />
             </div>
