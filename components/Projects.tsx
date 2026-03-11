@@ -15,7 +15,7 @@ export function Projects() {
     {
       title: "mpo group project for mpo office of Rmmc",
       description:
-        "A calendar-based scheduling system for managing appointments and events. Implements real-time updates for seamless booking and coordination among staff.",
+        "A calendar-based scheduling system for managing appointments and events. Implements real-time updates for seamless appointments and coordination among office incharge.",
       tech: "Built with PHP, Laravel, Boostrap, Javascrpt",
       github: "https://github.com/harvey4u/mpo1",
       live: "#",
