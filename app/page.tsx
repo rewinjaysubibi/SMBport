@@ -18,7 +18,7 @@ export default function Page() {
         {/* Professional Portfolio Image */}
         <div className="relative z-0 mx-auto mt-25 h-64 w-64 overflow-hidden rounded-full border-4 border-[#1A1A1A] shadow-lg">
           <img
-            src="CET.jpg" // your uploaded image in public/images
+            src="final3.jpg" // your uploaded image in public/images
             alt="Portfolio Image"
           />
         </div>
