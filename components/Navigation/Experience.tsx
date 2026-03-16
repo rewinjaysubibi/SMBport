@@ -3,25 +3,25 @@ import { FadeIn } from "../FadeIn"
 export function Experience() {
   const experiences = [
     {
-      date: "2023 — Present",
-      role: "Senior Software Engineer",
-      company: "Stripe",
+      date: "2022 — Present",
+      role: "BSIT Student",
+      company: "RMMC",
       description:
-        "Leading the frontend architecture for the billing platform. Improved dashboard load times by 40%.",
+        "Learning the fundamentals of Information Technology, including programming, web development, and database systems. Building small projects to practice and apply core concepts.",
     },
     {
-      date: "2020 — 2023",
-      role: "Software Engineer",
-      company: "Vercel",
+      date: "2023 — 2025",
+      role: "Student Developer",
+      company: "Academic Projects",
       description:
-        "Core contributor to Next.js. Developed key features for the edge runtime and routing system.",
+        "Created several web applications as part of coursework to practice programming and system development.",
     },
     {
-      date: "2018 — 2020",
-      role: "Frontend Developer",
-      company: "Acme Startup (YC S18)",
+      date: "Present",
+      role: "IT Intern",
+      company: "Internship Program",
       description:
-        "First engineering hire. Built the MVP from scratch and scaled the platform to 100k+ MAU.",
+        "Gaining practical experience in web development and assisting with development tasks.",
     },
   ]
   return (
