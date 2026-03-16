@@ -12,7 +12,7 @@ export function Footer() {
           Rewin Jay Subibi.
         </p>
         <p className="font-georgia text-[11px] text-[#6B5B4E] italic sm:text-xs">
-          SMB 💕
+          SMB
         </p>
       </div>
     </footer>
