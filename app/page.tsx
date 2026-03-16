@@ -32,7 +32,7 @@ export default function Page() {
             {/* Hover Overlay */}
             <div className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 transition duration-300 group-hover:opacity-100">
               <p className="text-center text-sm font-medium text-white">
-                Click to see my Facebook
+                Click to see Pogi
               </p>
             </div>
           </div>
