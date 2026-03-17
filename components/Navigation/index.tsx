@@ -59,7 +59,7 @@ export function Navbar() {
           onClick={(e) => handleNavClick(e, "#top")}
           className="text-[11px] font-bold tracking-[0.2em] text-[#1A1A1A] uppercase transition-colors hover:text-[#1B2A4A]"
         >
-          SMB
+          My Portfolio
         </a>
 
         {/* Desktop Nav */}
