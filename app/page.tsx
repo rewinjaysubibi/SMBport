@@ -21,22 +21,7 @@ export default function Page() {
           target="_blank"
           rel="noopener noreferrer"
           className="group block"
-        >
-          <div className="relative z-0 mx-auto mt-16 h-40 w-40 cursor-pointer overflow-hidden rounded-full border-4 border-[#1A1A1A] shadow-lg sm:h-52 sm:w-52 md:h-64 md:w-64">
-            <img
-              src="final3.jpg"
-              alt="Portfolio Image"
-              className="h-full w-full object-cover"
-            />
-
-            {/* Hover Overlay */}
-            <div className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 transition duration-300 group-hover:opacity-100">
-              <p className="text-center text-sm font-medium text-white">
-                Click to see Pogi
-              </p>
-            </div>
-          </div>
-        </a>
+        ></a>
 
         {/* Hero section */}
         <div className="-mt-30 pt-12 pb-16 md:pt-16 md:pb-20">
