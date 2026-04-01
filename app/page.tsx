@@ -9,7 +9,7 @@ import { Footer } from "@/components/Navigation/Footer"
 
 export default function Page() {
   return (
-    <div className="flex min-h-screen flex-col bg-[#F5F0E8] text-[#1A1A1A] selection:bg-[#1B2A4A] selection:text-[#F5F0E8]">
+    <div className="flex min-h-screen flex-col overflow-x-hidden bg-[#F5F0E8] text-[#1A1A1A] selection:bg-[#1B2A4A] selection:text-[#F5F0E8]">
       <Navbar />
 
       <main className="mx-auto w-full max-w-5xl flex-1 px-6">
