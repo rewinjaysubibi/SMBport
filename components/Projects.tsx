@@ -4,7 +4,7 @@ import { FadeIn } from "./FadeIn"
 export function Projects() {
   const projects = [
     {
-      title: "A group Project for Sia2 Massage Booking",
+      title: "Massage Booking System",
       description:
         "Real-time booking management and analytics dashboard for a massage service. Designed to track appointments, manage schedules, and provide insights with fast, responsive performance.",
       tech: "PHP, Laravel, MySQL, HTML, CSS, JavaScript",
@@ -13,18 +13,18 @@ export function Projects() {
       live: "#",
     },
     {
-      title: "mpo group project for mpo office of Rmmc",
+      title: "MPO Office Scheduling System",
       description:
-        "A calendar-based scheduling system for managing appointments and events. Implements real-time updates for seamless appointments and coordination among office incharge.",
-      tech: "Built with PHP, Laravel, Bootstrap, JavaScript",
+        "A calendar-based scheduling system for managing appointments and events. Implements real-time updates for seamless coordination among office staff.",
+      tech: "PHP, Laravel, Bootstrap, JavaScript",
       github: "https://github.com/harvey4u/mpo1",
       live: "#",
     },
     {
-      title: "Icon Venue & Suites Booking and Billing system",
+      title: "Icon Venue & Suites — Booking & Billing System",
       description:
-        "A Capstone project where comprehensive booking and billing system for managing venue reservations and client invoices. Features include real-time availability checks, automated billing, and detailed reporting.",
-      tech: "Built with PHP, Laravel, MySQL, HTML, CSS, JavaScript",
+        "A capstone project: comprehensive booking and billing system for managing venue reservations and client invoices. Features real-time availability checks, automated billing, and detailed reporting.",
+      tech: "PHP, Laravel, MySQL, HTML, CSS, JavaScript",
       github: "#",
       live: "#",
     },

@@ -13,7 +13,7 @@ export function Skills() {
     },
     {
       name: "Infrastructure",
-      skills: "PostgreSQL, MySQL,",
+      skills: "PostgreSQL, MySQL",
     },
     {
       name: "Tools",
